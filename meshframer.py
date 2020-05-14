@@ -56,6 +56,7 @@ def create_meshframe():
     objeto.keyframe_insert(data_path = "hide_render")
     
     escena.collection.objects.link(dup_objeto) # Crea el objeto en la escena
+    bpy.context.view_layer.objects.active = dup_objeto
         
 def toggle_meshframe():
     objeto = bpy.context.active_object
