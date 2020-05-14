@@ -1,7 +1,7 @@
 # Meshframer
 Blender add-on to create stopmotion-like animation.
 
-Main reason to do this was a test, inspired by the new developments of Pablo Dobarro's mesh keys. I thought that it was already possible to do such thing, but workflow was very painful. Using this little tool you can simulate a stopmotion session, creating and modifying new instances of your mesh, with a constant interpolation.
+Main reason to do this was a test, inspired by the new developments of Pablo Dobarro's mesh keys. I thought that it was already possible to do such thing, but workflow was very painful. Using this little tool you can simulate a stopmotion session, creating and modifying new instances of your mesh, with a constant interpolation. Best of all you don't have to deal with selecting objects in outliner, add keyframes for viewport and render everytime and remembering adding the right keyframes to make objects not to overlap.
 
 ## Instructions
 Install the addon, it works in Blender 2.82. 
