@@ -6,6 +6,7 @@ Main reason to do this was a test, inspired by the new developments of Pablo Dob
 ## Instructions
 Install the addon, it works in Blender 2.82. 
 * Select a mesh. In 3D View Panel, press "Create Meshframe" to insert a pose for the mesh.
+![imagen de GUI](imagenes/ss-01.png)
 * Modify the newly created object as you please.
 * Move in the timeline, select mesh, and repeat process.
 * For each "meshframe" you add, Blender will create a new object, so you don't have to worry about topology or mesh islands, you can change material, and every aspect of each object.
