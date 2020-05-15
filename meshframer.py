@@ -42,16 +42,20 @@ def create_meshframe():
         dup_objeto.animation_data_clear() #borra todos los keyframes anteriores.
     
     dup_objeto.hide_viewport = True
+    dup_objeto.hide_render = True
     dup_objeto.keyframe_insert(data_path = "hide_viewport", frame=frame_actual - 1)
     dup_objeto.keyframe_insert(data_path = "hide_render", frame=frame_actual - 1)
     dup_objeto.hide_viewport = False
+    dup_objeto.hide_render = False
     dup_objeto.keyframe_insert(data_path = "hide_viewport")
     dup_objeto.keyframe_insert(data_path = "hide_render")
     
     objeto.hide_viewport = False
+    objeto.hide_render = False
     objeto.keyframe_insert(data_path = "hide_viewport", frame=frame_actual - 1)
     objeto.keyframe_insert(data_path = "hide_render", frame=frame_actual - 1)
     objeto.hide_viewport = True
+    objeto.hide_render = True
     objeto.keyframe_insert(data_path = "hide_viewport")
     objeto.keyframe_insert(data_path = "hide_render")
     
